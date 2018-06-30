@@ -1,4 +1,7 @@
-"""Input: [1,2,3,4,5]
+"""
+Some random code interview question- why is this even in here?
+
+Input: [1,2,3,4,5]
 Output: [120, 60, 40, 30, 24]
 """
 
