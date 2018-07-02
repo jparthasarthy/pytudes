@@ -5,7 +5,6 @@ total = 0
 for line in f:
 
     numbers = list(map(int, line.strip('\n').split('\t')))
-    numbers.sort()
-    total += numbers[-1] - numbers[0]
+    total += max(numbers) - min(numbers)
 
 print(total)
